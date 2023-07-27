@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{background-image: url("images/arkaplan.jpg"); /*arka plan fotoğraf ve ayarı */
+height: 100vh; background-size:100% 100% ; }
+
+.container .navbar {width: 100%; height: 80px; background-color: black;}  /*üst menü renk genişlik yükseklik ayarı*/
+
+.navbar ul{float: right; margin-right: 20x;} /* menüyü sola yaslama*/
+
+
+
+.navbar .isim {display: inline-block; margin-left: 20px; padding: 20px;} /*isim ayarı */
+.navbar .isim a{text-decoration: none; font-size: 30px; color: white;}
+
+.navbar ul li{ list-style: none; display: inline-block; margin: 0; padding: 45px;} /*menü ayarı*/
+.navbar ul li a{text-decoration: none; font-size: 12px; color: white;}
+
